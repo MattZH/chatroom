@@ -63,9 +63,9 @@ $(document).ready(function () {
     })
   })
 
-  setInterval(function () {
-    socket.emit('rooms')
-  }, 1000)
+  // setInterval(function () {
+  //   socket.emit('rooms')
+  // }, 1000)
 
   $('#send-message').focus()
 
